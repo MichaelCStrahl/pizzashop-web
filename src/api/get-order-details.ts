@@ -1,7 +1,7 @@
 import { OrderStatus } from '@/components/order-status'
 import { api } from '@/lib/axios'
 
-interface GetOrderDetailsResponse {
+export interface GetOrderDetailsResponse {
   id: string
   createdAt: string
   status: OrderStatus
