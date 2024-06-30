@@ -60,7 +60,7 @@ export function SignUp() {
       <Helmet title="Cadastro" />
       <div className="p-8">
         <Button variant="ghost" asChild className="absolute right-8 top-8">
-          <Link to="/sign-up" className="">
+          <Link to="/sign-in" className="">
             Fazer login
           </Link>
         </Button>
